@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.sahil.newsapp.ui.ajjTak.HomeFragment"
+        android:label="@string/aaj_tak"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_nav_home_to_nav_gallery2"
+            app:destination="@id/nav_gallery" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.sahil.newsapp.ui.abp.GalleryFragment"
+        android:label="@string/abp_news"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.sahil.newsapp.ui.Ndtv.SlideshowFragment"
+        android:label="@string/ndtv"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/bccnews"
+        android:name="com.sahil.newsapp.Fragment.BccFragment"
+        android:label="@string/bcc_news"
+        tools:layout="@layout/fragment_bcc" />
+
+    <fragment
+        android:id="@+id/toi"
+        android:name="com.sahil.newsapp.Fragment.tocFragment"
+        android:label="Times Of India"
+        tools:layout="@layout/fragment_toc" />
+
+    <fragment
+        android:id="@+id/hindu"
+        android:name="com.sahil.newsapp.Fragment.hinduFragment"
+        android:label="The Hindu"
+        tools:layout="@layout/fragment_hindu2" />
+    <fragment
+        android:id="@+id/db"
+        android:name="com.sahil.newsapp.Fragment.dbFragment"
+        android:label="Dainik Bhaskar"
+        tools:layout="@layout/fragment_db2" />
+
+</navigation>

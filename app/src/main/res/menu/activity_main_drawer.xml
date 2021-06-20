@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/aajtak"
+            android:title="@string/aaj_tak"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/abp"
+            android:title="@string/abp_news"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ndtv"
+            android:title="@string/ndtv"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/bccnews"
+            android:icon="@drawable/bcc"
+            android:title="@string/bcc_news"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/toi"
+            android:icon="@drawable/toi"
+            android:title="@string/times_of_india"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/hindu"
+            android:icon="@drawable/hindu"
+            android:title="@string/the_hindu"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/db"
+            android:icon="@drawable/db"
+            android:title="@string/dainik_bhaskar"
+            android:menuCategory="secondary"/>
+    </group>
+
+    <item android:title="Up Coming"
+        android:menuCategory="secondary">
+        <menu>
+            <item
+
+                android:id="@+id/ny"
+
+                android:title="@string/amanzing_fact"
+                />
+        </menu>
+    </item>
+</menu>
